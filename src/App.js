@@ -12,10 +12,13 @@ import Footer from './components/Footer'
 function App() {
 
     //SET UP THE ABOUT TO BE RENDERED ON INITIAL LOAD 
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Home');
 
     //CONDTIONALLY RENDER EACH PAGE DEPENDING ON THE CURRENT-PAGE STATE
     const renderPage = () => {
+        if (currentPage === 'Home') {
+            return <Home />;
+        }
         if (currentPage === 'About') {
             return <About />;
         }
