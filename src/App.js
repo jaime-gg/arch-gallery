@@ -36,12 +36,13 @@ function App() {
                 <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             </header>
             <main>
-                <Hero />
 
                 {renderPage()}
 
-                <Footer />
             </main>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     );
 }
