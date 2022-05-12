@@ -8,8 +8,26 @@
     background: var(--dark);
     position: absolute;
     display: block;
-    content: '';
+    border: 0 solid transparent;
     width: 15rem;
     height: 15rem;
-    top: 14rem
+    top: 14rem;
+    
+}
+
+.first::after {
+    text-decoration: none;
+    content: 'About Me'
+}
+
+.second::after {
+    content: 'The Gallery'
+}
+
+.third::after {
+    content: 'Contact Me'
+}
+
+home-arch>a>h3 {
+    top: 15rem
 }
