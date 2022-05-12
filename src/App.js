@@ -8,7 +8,7 @@ import Home from './components/Home'
 // import Gallery from './components/Gallery';
 // import Contact from './components/Contact'
 
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -42,7 +42,7 @@ function App() {
             <main>
 
                 {renderPage()}
-                {/* <Footer /> */}
+                <Footer />
 
             </main>
         </div>
