@@ -42,9 +42,11 @@ function App() {
             <main>
 
                 {renderPage()}
-                <Footer />
 
             </main>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     );
 }
