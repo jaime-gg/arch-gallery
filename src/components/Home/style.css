@@ -1,11 +1,11 @@
 .arch {
     width: 15rem;
     height: 7.5rem;
-    background: rgb(255, 123, 0);
+    background: var(--dark);
     border-radius: 50% 50% 0 0;
 }
 .arch::after {
-    background: rgb(162, 25, 1);
+    background: var(--dark);
     position: absolute;
     display: block;
     content: '';
