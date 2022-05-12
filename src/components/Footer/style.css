@@ -1,0 +1,62 @@
+.footer {
+    background: var(--dark);
+    color: #e0e0e0;
+    padding: 10px 0 0 0;
+}
+
+.footer .info {
+    padding: 5px;
+    width: 100%;
+}
+
+.c-item {
+    padding: 20px;
+}
+
+.footer .info i {
+    font-size: 20px;
+    color: var(--primary);
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--white);
+}
+
+.footer .info p {
+    padding: 0 0 10px 60PX;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--white);
+}
+
+.footer .info .social-links {
+    padding-left: 60px;
+}
+
+.footer .info .email:hover i,
+.footer .info .github:hover i,
+.footer .info .github:hover i {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.footer .info a {
+    color: var(--white);
+}
+
+.footer .info a:hover {
+    color: var(--secondary);
+}
