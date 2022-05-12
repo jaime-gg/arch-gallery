@@ -5,9 +5,8 @@ function Home() {
 
     return (
         <section>
-            <div>
-                <h3> wow so cool</h3>
-                <p>this is content</p>
+            <div className='justify-content-center'>
+                <p className="text-center">Choose Your Path: </p>
                 <div className='row'>
                     <div className='col p-5'>
                         <div className="arch"></div>

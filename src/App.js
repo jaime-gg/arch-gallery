@@ -35,16 +35,16 @@ function App() {
     // ALWAYS RENDER THE HEADER, HERO, AND FOOTER, THEN USE THE RENDERPAGE FUNCTION TO INSERT THE BODY CONTENT
     return (
         <div className="App">
-            <header className="App-header">
+            <header className="App-header row fixed-top">
                 {/* THE FUNCTIONS WILL BE PUSHED TO THE NAV COMPONENT */}
                 <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             </header>
-            <main>
+            <main className='row d-flex flex-column min-vh-100'>
 
                 {renderPage()}
 
             </main>
-            <footer>
+            <footer className='row mt-auto'>
                 <Footer />
             </footer>
         </div>
