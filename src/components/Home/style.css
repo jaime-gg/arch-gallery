@@ -5,9 +5,11 @@
     border-radius: 50% 50% 0 0;
 }
 .arch::after {
+    background: rgb(162, 25, 1);
     position: absolute;
     display: block;
     content: '';
     width: 15rem;
-    height: 20rem;
+    height: 15rem;
+    top: 16rem
 }
