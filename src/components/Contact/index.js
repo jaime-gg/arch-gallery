@@ -29,6 +29,11 @@ function Contact() {
         }
     }
 
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+        console.log(formState);
+    }
+
     return (
         <section id="contact" className="container">
             <div className="section-title">
