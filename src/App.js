@@ -4,8 +4,8 @@ import './App.css';
 import Header from './components/Header';
 
 import Home from './components/Home'
-// import About from './components/About';
-// import Gallery from './components/Gallery';
+import About from './components/About';
+import Gallery from './components/Gallery';
 // import Contact from './components/Contact'
 
 import Footer from './components/Footer'
@@ -26,7 +26,7 @@ function App() {
         if (currentPage === 'Gallery') {
             return <Gallery />;
         }
-        return <Contact />;
+        // return <Contact />;
     };
 
     // UPDATE DEPENDING ON PAGE

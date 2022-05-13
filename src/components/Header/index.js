@@ -16,7 +16,7 @@ function Header({ currentPage, handlePageChange }) {
                 </li>
 
                 <li>
-                    <a href="#gallery" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Gallery' ? 'active nav-link ' : 'nav-link '}>
+                    <a href="#gallery" onClick={() => handlePageChange('Gallery')} className={currentPage === 'Gallery' ? 'active nav-link ' : 'nav-link '}>
                         <span>Gallery</span>
                     </a>
                 </li>
