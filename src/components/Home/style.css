@@ -1,33 +1,6 @@
 .arch {
-    width: 15rem;
-    height: 7.5rem;
-    background: var(--dark);
-    border-radius: 50% 50% 0 0;
-}
-.arch::after {
-    background: var(--dark);
-    position: absolute;
-    display: block;
-    border: 0 solid transparent;
-    width: 15rem;
-    height: 15rem;
-    top: 14rem;
-    
-}
-
-.first::after {
-    text-decoration: none;
-    content: 'About Me'
-}
-
-.second::after {
-    content: 'The Gallery'
-}
-
-.third::after {
-    content: 'Contact Me'
-}
-
-home-arch>a>h3 {
-    top: 15rem
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Assets/arch.png");
+    background-size: cover;
 }

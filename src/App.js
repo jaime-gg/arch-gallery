@@ -39,7 +39,7 @@ function App() {
                 {/* THE FUNCTIONS WILL BE PUSHED TO THE NAV COMPONENT */}
                 <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             </header>
-            <main className='row d-flex flex-column min-vh-100'>
+            <main className='d-flex flex-column min-vh-100'>
 
                 {renderPage()}
 
