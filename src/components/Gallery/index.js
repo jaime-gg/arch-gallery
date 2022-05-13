@@ -17,7 +17,7 @@ function Gallery() {
 
                     <div className="col-lg-4 col-md-6 gallery-item">
                         <div className="gallery-wrap">
-                            <img src={require('../../Assets/gallery/gallery-1.png')} className="img-fluid" alt="" />
+                            <img src={require('../../Assets/gallery/gallery-1.jpg')} className="img-fluid" alt="" />
                             <div className="gallery-links">
                                 <a href="" title="View Github"><i className="bx bxl-github"></i></a>
                                 <a href="" title="View Page"><i className="bx bx-link"></i></a>
@@ -27,7 +27,7 @@ function Gallery() {
 
                     <div className="col-lg-4 col-md-6 gallery-item">
                         <div className="gallery-wrap">
-                            <img src={require('../../Assets/gallery/gallery-2.png')} className="img-fluid" alt="" />
+                            <img src={require('../../Assets/gallery/gallery-2.jpg')} className="img-fluid" alt="" />
                             <div className="gallery-links">
                                 <a href="" title="View Github"><i className="bx bxl-github"></i></a>
                                 <a href="" title="View Page"><i className="bx bx-link"></i></a>
@@ -37,7 +37,7 @@ function Gallery() {
 
                     <div className="col-lg-4 col-md-6 gallery-item">
                         <div className="gallery-wrap">
-                            <img src={require('../../Assets/gallery/gallery-3.png')} className="img-fluid" alt="" />
+                            <img src={require('../../Assets/gallery/gallery-3.jpg')} className="img-fluid" alt="" />
                             <div className="gallery-links">
                                 <a href="" title="View Github"><i className="bx bxl-github"></i></a>
                                 <a href="" title="View Page"><i className="bx bx-link"></i></a>
