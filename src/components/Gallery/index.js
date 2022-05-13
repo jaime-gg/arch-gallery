@@ -19,8 +19,8 @@ function Gallery() {
                         <div className="gallery-wrap">
                             <img src={require('../../Assets/gallery/gallery-1.png')} className="img-fluid" alt="" />
                             <div className="gallery-links">
-                                <a href="https://github.com/jaime-gg/project1" title="View Github"><i className="bx bxl-github"></i></a>
-                                <a href="https://jaime-gg.github.io/project1/" title="View Page"><i className="bx bx-link"></i></a>
+                                <a href="" title="View Github"><i className="bx bxl-github"></i></a>
+                                <a href="" title="View Page"><i className="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -29,8 +29,8 @@ function Gallery() {
                         <div className="gallery-wrap">
                             <img src={require('../../Assets/gallery/gallery-2.png')} className="img-fluid" alt="" />
                             <div className="gallery-links">
-                                <a href="https://github.com/jaime-gg/tech-blog" title="View Github"><i className="bx bxl-github"></i></a>
-                                <a href="https://um-technically-blog.herokuapp.com/" title="View Page"><i className="bx bx-link"></i></a>
+                                <a href="" title="View Github"><i className="bx bxl-github"></i></a>
+                                <a href="" title="View Page"><i className="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -39,8 +39,8 @@ function Gallery() {
                         <div className="gallery-wrap">
                             <img src={require('../../Assets/gallery/gallery-3.png')} className="img-fluid" alt="" />
                             <div className="gallery-links">
-                                <a href="https://github.com/jaime-gg/storeEZ" title="View Github"><i className="bx bxl-github"></i></a>
-                                <a href="https://store-ez.herokuapp.com/" title="View Page"><i className="bx bx-link"></i></a>
+                                <a href="" title="View Github"><i className="bx bxl-github"></i></a>
+                                <a href="" title="View Page"><i className="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
