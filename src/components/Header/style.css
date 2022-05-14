@@ -1,3 +1,9 @@
+img {
+    height: 10px;
+    width: auto;
+    filter: invert(57%) sepia(59%) saturate(338%) hue-rotate(352deg) brightness(96%) contrast(87%);
+}
+
 .navbar1 {
     position: relative;
     width: 100%;
