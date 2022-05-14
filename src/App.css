@@ -16,6 +16,8 @@ body {
 
 main {
   background-color: var(--white);
+  position: relative;
+  top: 80px; 
 }
 
 a {
