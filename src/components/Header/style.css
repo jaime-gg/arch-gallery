@@ -1,9 +1,11 @@
 .logo {
-    justify-content: center;
     height: 30px;
-    width: auto;
     filter: invert(57%) sepia(59%) saturate(338%) hue-rotate(352deg) brightness(96%) contrast(87%);
-    visibility: visible!;
+    position: relative;
+}
+
+.a-logo {
+    flex-basis: 100%;
 }
 
 .navbar1 {

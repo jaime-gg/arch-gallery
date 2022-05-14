@@ -7,16 +7,20 @@ function Header({ currentPage, handlePageChange }) {
     const renderNav = () => {
         if (currentPage === 'Home') {
             return (
-                <div>
-                    <img src={archImg} className="logo" />
+                <nav id="navbar" className="nav-menu navbar1">
+                    <a className='justify-content-center a-logo' href='/'>
+                        <img src={archImg} className="logo" />
+                    </a>
                     <h3> THE ARCH GALLERY BIDS YOU WELCOME</h3>
-                </div>
+                </nav>
             );
         }
         return (
-            <div>
-                <img src={archImg} className="logo"/>
-                <ul className="justify-content-center">
+            <nav id="navbar" className="nav-menu navbar1">
+                <a className='justify-content-center a-logo' href='/'>
+                    <img src={archImg} className="logo" />
+                </a>
+                <ul className='justify-content-center'>
                     <li>
                         <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active nav-link ' : 'nav-link '} >
                             <span>About Me</span>
@@ -35,18 +39,14 @@ function Header({ currentPage, handlePageChange }) {
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         );
     };
 
 
     return (
         <nav>
-            <nav id="navbar" className="nav-menu navbar1">
-
                 {renderNav()}
-
-            </nav>
         </nav>
     )
 }
