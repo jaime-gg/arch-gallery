@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
 }
 
-img {
+.home-arch-img {
     width: 100%;
     height: auto;
     visibility: hidden;

@@ -8,14 +8,14 @@ function Header({ currentPage, handlePageChange }) {
         if (currentPage === 'Home') {
             return (
                 <div>
-                    <img src={archImg} />
+                    <img src={archImg} className="logo" />
                     <h3> THE ARCH GALLERY BIDS YOU WELCOME</h3>
                 </div>
             );
         }
         return (
             <div>
-                <img src={archImg} />
+                <img src={archImg} className="logo"/>
                 <ul className="justify-content-center">
                     <li>
                         <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active nav-link ' : 'nav-link '} >
