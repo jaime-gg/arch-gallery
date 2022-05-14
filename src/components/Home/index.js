@@ -10,22 +10,22 @@ function Home({ currentPage, handlePageChange }) {
                 <h3 className="text-center">Choose Your Path: </h3>
                 <div className='home-arch row h-100'>
                     <div className='arch col p-4 d-flex justify-content-center text-center'>
-                        <img src={archImg} />
-                        <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active nav-link ' : 'nav-link '} >
+                        <img className='justify-content-center' src={archImg} />
+                        <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active nav-link home-link' : 'nav-link home-link'} >
                             <h3 className="main-title">About Me</h3>
                         </a>
                     </div>
 
                     <div className='arch col p-4 d-flex justify-content-center text-center'>
                         <img src={archImg} />
-                        <a href="#gallery" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Gallery' ? 'active nav-link ' : 'nav-link '}>
+                        <a href="#gallery" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Gallery' ? 'active nav-link home-link' : 'nav-link home-link'}>
                             <h3 className="main-title">Gallery</h3>
                         </a>
                     </div>
 
                     <div className='arch col p-4 d-flex justify-content-center text-center'>
                         <img src={archImg} />
-                        <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'active nav-link ' : 'nav-link '}>
+                        <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'active nav-link home-link' : 'nav-link home-link'}>
                             <h3 className="main-title">Contact Me</h3>
                         </a>
                     </div>

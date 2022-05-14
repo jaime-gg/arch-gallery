@@ -4,15 +4,17 @@
     background-image: url("../../Assets/arch.png");
     background-size: contain;
     background-repeat: no-repeat;
-    text-align: center;
 }
 
 img {
+    width: 100%;
+    height: auto;
     visibility: hidden;
-    position: relative;
+    z-index: 50;
 }
 
-.main-title {
+.home-link {
     position: absolute;
     z-index: 100; 
+    top: 30%;
 }
