@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './style.css'
 
+import { validateEmail } from '../../utils/helpers';
+
 
 function Contact() {
 
@@ -11,13 +13,18 @@ function Contact() {
 
     function handleInputChange(e) {
         if (e.target.name === 'email') {
+            // make sure that the email address properly is written
             const isValid = validateEmail(e.target.value);
+
+            // if email is not valid then make sure to activate the error message. 
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
             } else {
                 setErrorMessage('');
             }
+
         } else {
+            // if it is not valid, activate the hidden error message
             if (!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required.`);
             } else {
